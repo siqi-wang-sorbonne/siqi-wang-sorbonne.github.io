@@ -24,6 +24,15 @@ body {
     text-align: justify;
 }
 
+.button-container {
+            text-align: center; /* Centers the buttons horizontally */
+            padding: 20px;
+        }
+
+        .button-container button {
+            margin: 10px; /* Adds space between buttons */
+        }
+
 /* Container for the biography and photo */
 .container {
     padding: 20px;
