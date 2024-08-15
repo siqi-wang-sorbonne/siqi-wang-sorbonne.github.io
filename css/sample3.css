@@ -20,6 +20,11 @@ body {
     }
 }
 
+
+.justified-text {
+    text-align: justify;
+}
+
 /* Container to hold both the text and image */
         .container {
             display: flex;
@@ -31,8 +36,8 @@ body {
         /* Left column for biography */
         .bio {
             flex: 1;
-            margin-right: 20px;
-            text-align: left;
+            margin-right: 5vw;
+            text-align: justify;
         }
 
         /* Right column for the image */
