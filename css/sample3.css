@@ -1,7 +1,7 @@
-/* or different margins for each side */
+/* /* or different margins for each side */
 body {
     margin: 20px 60px; /* Top/Bottom: 20px, Left/Right: 40px */
-}
+} */
 /* Container to hold both the text and image */
         .container {
             display: flex;
