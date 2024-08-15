@@ -1,7 +1,25 @@
 /* or different margins for each side */
+/* sample3.css */
+
+/* Default margin for larger screens */
 body {
-    margin: 20px 60px; /* Top/Bottom: 20px, Left/Right: 40px */
+    margin: 5vw; /* 5% of the viewport width */
 }
+
+/* Adjust margin for tablets */
+@media (max-width: 900px) {
+    body {
+        margin: 4vw;
+    }
+}
+
+/* Adjust margin for mobile devices */
+@media (max-width: 600px) {
+    body {
+        margin: 3vw;
+    }
+}
+
 /* Container to hold both the text and image */
         .container {
             display: flex;
