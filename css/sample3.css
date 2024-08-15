@@ -25,28 +25,26 @@ body {
     text-align: justify;
 }
 
-/* Container to hold both the text and image */
-        .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            padding: 20px;
-        }
+/* Container for the biography and photo */
+.container {
+    padding: 20px;
+    overflow: auto; /* Ensures proper clearing of floated elements */
+}
 
-        /* Left column for biography */
-        .bio {
-            flex: 1;
-            margin-right: 5vw;
-            text-align: justify;
-        }
+/* Right column for the image */
+.photo {
+    float: right;
+    margin-left: 20px; /* Space between the image and the text */
+    margin-bottom: 20px; /* Space below the image if the text is longer */
+}
 
-        /* Right column for the image */
-        .photo {
-            flex: 0 0 200px; /* This sets a fixed width for the image */
-        }
+.photo img {
+    max-width: 200px; /* Adjust the size of the image */
+    height: auto;
+    border-radius: 50%; /* Optional: to make the photo circular */
+}
 
-        .photo img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 50%; /* Optional: to make the photo circular */
-        }
+/* Left column for biography */
+.bio {
+    text-align: justify;
+}
