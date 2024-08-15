@@ -19,17 +19,6 @@ body {
     }
 }
 
-figure {
-            margin: 0;
-            padding: 0;
-        }
-
-        figure img {
-            width: 80%;
-            height: auto;
-            max-width: 100%;
-        }
-
 .justified-text {
     text-align: justify;
 }
