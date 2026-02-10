@@ -44,7 +44,7 @@ body {
 
 /* Right column for the image */
 .photo {
-    float: right;
+    flex: 1;
     margin-left: 20px; /* Space between the image and the text */
     margin-bottom: 20px; /* Space below the image if the text is longer */
 }
@@ -58,4 +58,21 @@ body {
 /* Left column for biography */
 .bio {
     text-align: justify;
+}
+
+/* Project page image (larger and not rounded) */
+.project-photo img {
+    width: 100%;          /* Fill its container */
+    max-width: 500px;     /* Larger size */
+    height: auto;
+    border-radius: 0;     /* No rounding */
+}
+
+/* Optional: control width distribution */
+.project-photo {
+    flex: 2;            /* Image takes more space */
+}
+
+.project-description {
+    flex: 2;
 }
