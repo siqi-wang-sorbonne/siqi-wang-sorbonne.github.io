@@ -36,13 +36,11 @@ body {
 .container {
     padding: 20px;
     overflow: auto; /* Ensures proper clearing of floated elements */
-}
-
-.container2 {
     display: flex;
     align-items: center;     /* vertically align */
     gap: 40px;               /* space between image and text */
 }
+
 
 /* Right column for the image */
 .photo {
